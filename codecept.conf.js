@@ -15,7 +15,6 @@ exports.config = {
       browser: 'chromium',
       url: 'https://cinepolis.com/mx',
       show: false,
-      headless: true
 
     }
   },
