@@ -14,7 +14,7 @@ exports.config = {
     Playwright: {
       browser: 'chromium',
       url: 'https://cinepolis.com/mx',
-      show: false,
+      show: true,
     }
     
     
