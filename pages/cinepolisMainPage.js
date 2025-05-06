@@ -30,6 +30,8 @@ class cinepolisMainPage {
 
 
     async seleccionCine(){
+        await I.waitForElement(this.fields.ciudad, 10);
+        await I.waitForElement(this.fields.cdmx, 10);
         await I.click(this.fields.ciudad);
         await I.click(this.fields.cdmx);
     }
@@ -56,6 +58,7 @@ class cinepolisMainPage {
     }
 
     async selectCityFood(){
+        await I.waitForElement(this.fields.ciudadComida, 10);
         await I.click(this.fields.ciudadComida);
         await I.click(this.fields.cdmxComida);
         await I.click(this.fields.perisurComida);
@@ -73,6 +76,7 @@ class cinepolisMainPage {
     }
 
     async seleccionaVerTrailer(){
+        await I.waitForElement(this.fields.verTrailer, 10);
         await I.click(this.fields.verTrailer);
     }
 

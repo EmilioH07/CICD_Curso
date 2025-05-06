@@ -15,8 +15,9 @@ exports.config = {
       browser: 'chromium',
       url: 'https://cinepolis.com/mx',
       show: false,
-
     }
+    
+    
   },
   gherkin: {
     features: './features/**/*.feature',
