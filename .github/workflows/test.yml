@@ -20,6 +20,12 @@ jobs:
       - name: Instalar navegadores de Playwright
         run: npx playwright install --with-deps
 
+      - name: Instalar xvfb
+        run: sudo apt-get install xvfb
+
+      - name: Correr pruebas en modo visible
+        run: xvfb-run --auto-servernum -- npm run features
+
       - name: Ejecutar pruebas
         run: npm run features
 
