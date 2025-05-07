@@ -1,47 +1,31 @@
 const { I } = inject();
 
-const cinepolisMainPage = require("../pages/cinepolisMainPage.js");
+const pirmaMainPage = require("../pages/pirmaMainPage.js");
 
 Given("el usuario está en la página principal", async () => {
-  await cinepolisMainPage.goToHome();
+  await pirmaMainPage.goToHome();
 });
 
-When("selecciona la ciudad CDMX - Sur", async () => {
-  await cinepolisMainPage.seleccionCine();
+When("selecciona promocion del banner", async () => {
+  await pirmaMainPage.ordenarPlayeraPorPrecio();
 });
 
-When("selecciona el cine Cinépolis Perisur", async () => {
-  await cinepolisMainPage.seleccionPerisur();
-});
-
-Then("debería ver la cartelera de ese cine", async () => {
-  console.log("Se ve la cartelera para cinepolis Perisur");
+Then("ordena los productos por precios", async () => {
+  console.log("Se ve la opcion para llenar los datos de la compra");
 });
 
 
 //Segundo caso
-
-Given("el usuario está en la página de comida", async () => {
-  await cinepolisMainPage.goToFood();
+Given("el usuario está en la página principal", async () => {
+  await pirmaMainPage.goToHome();
 });
 
-When("selecciona palomitas", async () => {
-  await cinepolisMainPage.selectCityFood();
+When("selecciona el boton de hombre y chamarras y sudaderas", async () => {
+  await pirmaMainPage.hoverHombres();
 });
 
-Then("agrega palomitas al carrito", async () => {
-  await cinepolisMainPage.seleccionaPalomitas();
+Then("ordena los productos por talla", async () => {
+  await pirmaMainPage.tallasChamarras();
 });
 
-//Tercer caso
-Given("el usuario está en la pelicula Thunderbolts", async () => {
-  await cinepolisMainPage.seleccionaThunderbolts();
-});
 
-When("selecciona el boton de ver trailer", async () => {
-  await cinepolisMainPage.seleccionaVerTrailer();
-});
-
-Then("se debe mostrar el trailer", async () => {
-  console.log("Mostrando Trailer");
-});

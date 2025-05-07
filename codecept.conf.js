@@ -13,8 +13,8 @@ exports.config = {
   helpers: {
     Playwright: {
       browser: 'chromium',
-      url: 'https://cinepolis.com/mx',
-      show: true,
+      url: 'https://pirma.com.mx/',
+      show: false,
     }
     
     
