@@ -4,7 +4,8 @@ const { expect } = require("chai");
 class pirmaMainPage {
     constructor() {
         this.fields = {
-          carrousel: '(//button[@class="bg-transparent border-0 position-absolute pointer h-100 w-100"])[1]',
+          flecha: '(//li[@class="color-6"])[2]',
+          carrousel: '(//button[@class="bg-transparent border-0 position-absolute pointer h-100 w-100"])[3]',
           botonOrdenar: '//button[@class="btn btn-block rounded-0 font-12 px-4"]',
           ordenarMenorMayor: '(//a[@class="dropdown-item px-4 py-2"])[2]',
 
@@ -22,7 +23,8 @@ class pirmaMainPage {
 
 
     async ordenarPlayeraPorPrecio() {
-        await I.waitForElement(this.fields.carrousel, 5);
+        await I.waitForElement(this.fields.flecha, 5);
+        await I.click(this.fields.flecha);
         await I.click(this.fields.carrousel);
     
         await I.click(this.fields.botonOrdenar);
