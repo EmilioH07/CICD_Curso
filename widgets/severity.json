@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "8197241016fa2dcd",
+  "name" : "Agregar jersey al carrito e ir a pagar",
+  "time" : {
+    "start" : 1746725551023,
+    "stop" : 1746725556404,
+    "duration" : 5381
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2335600028ccbf6a",
+  "name" : "Buscar chamarras para hombre de talla mediana",
+  "time" : {
+    "start" : 1746725556412,
+    "stop" : 1746725562503,
+    "duration" : 6091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

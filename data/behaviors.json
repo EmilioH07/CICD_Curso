@@ -1,5 +1,31 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Agregar jersey al carrito e ir a pagar",
+    "uid" : "8197241016fa2dcd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1746725551023,
+      "stop" : 1746725556404,
+      "duration" : 5381
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Buscar chamarras para hombre de talla mediana",
+    "uid" : "2335600028ccbf6a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1746725556412,
+      "stop" : 1746725562503,
+      "duration" : 6091
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
   "name" : "behaviors"
 }

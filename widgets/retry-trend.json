@@ -1,6 +1,9 @@
 [ {
+  "buildOrder" : 19,
+  "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/19/",
+  "reportName" : "Allure Report with history",
   "data" : {
-    "run" : 0,
+    "run" : 2,
     "retry" : 0
   }
 } ]

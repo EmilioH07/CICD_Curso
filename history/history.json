@@ -1,1 +1,43 @@
-{ }
+{
+  "5ee58ddf069331a8f80cebf1e11a826d:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2335600028ccbf6a",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/19//#testresult/2335600028ccbf6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746725556412,
+        "stop" : 1746725562503,
+        "duration" : 6091
+      }
+    } ]
+  },
+  "c61d4d56b5866d291be829bd704d9875:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8197241016fa2dcd",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/19//#testresult/8197241016fa2dcd",
+      "status" : "broken",
+      "statusDetails" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
+      "time" : {
+        "start" : 1746725551023,
+        "stop" : 1746725556404,
+        "duration" : 5381
+      }
+    } ]
+  }
+}

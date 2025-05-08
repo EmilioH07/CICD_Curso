@@ -1,5 +1,35 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Comprar playeras en pirma",
+    "children" : [ {
+      "name" : "Agregar jersey al carrito e ir a pagar",
+      "uid" : "8197241016fa2dcd",
+      "parentUid" : "745269b7bcb0d5dedad0ded1be8ced02",
+      "status" : "broken",
+      "time" : {
+        "start" : 1746725551023,
+        "stop" : 1746725556404,
+        "duration" : 5381
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Buscar chamarras para hombre de talla mediana",
+      "uid" : "2335600028ccbf6a",
+      "parentUid" : "745269b7bcb0d5dedad0ded1be8ced02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746725556412,
+        "stop" : 1746725562503,
+        "duration" : 6091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "745269b7bcb0d5dedad0ded1be8ced02"
+  } ],
   "name" : "suites"
 }
