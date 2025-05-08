@@ -1,22 +1,22 @@
 {
-  "uid" : "2335600028ccbf6a",
+  "uid" : "8d573fcd01333972",
   "name" : "Buscar chamarras para hombre de talla mediana",
   "fullName" : "features/pirma.feature: Comprar playeras en pirma > Buscar chamarras para hombre de talla mediana",
   "historyId" : "5ee58ddf069331a8f80cebf1e11a826d:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746725556412,
-    "stop" : 1746725562503,
-    "duration" : 6091
+    "start" : 1746726426315,
+    "stop" : 1746726431336,
+    "duration" : 5021
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "\"before each\" hook: codeceptjs.before",
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746725556412,
-      "stop" : 1746725556462,
-      "duration" : 50
+      "start" : 1746726420251,
+      "stop" : 1746726420481,
+      "duration" : 230
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746725550820,
-      "stop" : 1746725551020,
-      "duration" : 200
+      "start" : 1746726426315,
+      "stop" : 1746726426351,
+      "duration" : 36
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,17 +47,17 @@
     "steps" : [ {
       "name" : "Given el usuario está en la página principal",
       "time" : {
-        "start" : 1746725556464,
-        "stop" : 1746725557823,
-        "duration" : 1359
+        "start" : 1746726426352,
+        "stop" : 1746726427764,
+        "duration" : 1412
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I am on page \"https://pirma.com.mx/\"",
         "time" : {
-          "start" : 1746725556464,
-          "stop" : 1746725557822,
-          "duration" : 1358
+          "start" : 1746726426353,
+          "stop" : 1746726427764,
+          "duration" : 1411
         },
         "status" : "passed",
         "steps" : [ ],
@@ -77,17 +77,17 @@
     }, {
       "name" : "When selecciona el boton de hombre y chamarras y sudaderas",
       "time" : {
-        "start" : 1746725557824,
-        "stop" : 1746725561101,
-        "duration" : 3277
+        "start" : 1746726427766,
+        "stop" : 1746726431059,
+        "duration" : 3293
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I wait 2",
         "time" : {
-          "start" : 1746725557825,
-          "stop" : 1746725559825,
-          "duration" : 2000
+          "start" : 1746726427766,
+          "stop" : 1746726429767,
+          "duration" : 2001
         },
         "status" : "passed",
         "steps" : [ ],
@@ -100,9 +100,9 @@
       }, {
         "name" : "I move cursor to \"(//a[@class=\"pointer position-static font-rem-16 zindex-100 headerMenuItem py-3 px-4 d-flex align-items-center\"])[1]\"",
         "time" : {
-          "start" : 1746725559825,
-          "stop" : 1746725559938,
-          "duration" : 113
+          "start" : 1746726429768,
+          "stop" : 1746726429888,
+          "duration" : 120
         },
         "status" : "passed",
         "steps" : [ ],
@@ -115,9 +115,9 @@
       }, {
         "name" : "I wait 1",
         "time" : {
-          "start" : 1746725559939,
-          "stop" : 1746725560938,
-          "duration" : 999
+          "start" : 1746726429888,
+          "stop" : 1746726430889,
+          "duration" : 1001
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "I click \"(//a[@class=\"color-6 headerMenuThirdItem\"])[10]\"",
         "time" : {
-          "start" : 1746725560939,
-          "stop" : 1746725561101,
-          "duration" : 162
+          "start" : 1746726430890,
+          "stop" : 1746726431059,
+          "duration" : 169
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,17 +152,17 @@
     }, {
       "name" : "Then ordena los productos por talla",
       "time" : {
-        "start" : 1746725561103,
-        "stop" : 1746725562502,
-        "duration" : 1399
+        "start" : 1746726431060,
+        "stop" : 1746726431336,
+        "duration" : 276
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I click \"(//button[@class=\"d-flex pb-2 align-items-center w-100 justify-content-between pb-3 collapsed\"])[1]\"",
         "time" : {
-          "start" : 1746725561103,
-          "stop" : 1746725562289,
-          "duration" : 1186
+          "start" : 1746726431060,
+          "stop" : 1746726431190,
+          "duration" : 130
         },
         "status" : "passed",
         "steps" : [ ],
@@ -175,9 +175,9 @@
       }, {
         "name" : "I click \"(//input[@class=\"regular-checkbox mr-2\"])[2]\"",
         "time" : {
-          "start" : 1746725562289,
-          "stop" : 1746725562502,
-          "duration" : 213
+          "start" : 1746726431190,
+          "stop" : 1746726431336,
+          "duration" : 146
         },
         "status" : "passed",
         "steps" : [ ],
@@ -203,11 +203,11 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746725562510,
-      "stop" : 1746725562510,
-      "duration" : 0
+      "start" : 1746726431337,
+      "stop" : 1746726431342,
+      "duration" : 5
     },
     "status" : "passed",
     "steps" : [ ],
@@ -218,11 +218,11 @@
     "shouldDisplayMessage" : false,
     "hasContent" : false
   }, {
-    "name" : "\"after each\" hook: codeceptjs.after",
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746725562504,
-      "stop" : 1746725562510,
-      "duration" : 6
+      "start" : 1746726431343,
+      "stop" : 1746726431343,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -241,10 +241,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1341-848"
+    "value" : "MacBook-Air-de-Emilio.local"
   }, {
     "name" : "thread",
-    "value" : "pid-6044-worker-main"
+    "value" : "pid-8081-worker-main"
   }, {
     "name" : "package",
     "value" : "features.pirma.feature"
@@ -257,14 +257,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2335600028ccbf6a.json",
+  "source" : "8d573fcd01333972.json",
   "parameterValues" : [ ]
 }

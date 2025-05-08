@@ -1,24 +1,24 @@
 {
-  "uid" : "8197241016fa2dcd",
+  "uid" : "f6a0ecca4449cefe",
   "name" : "Agregar jersey al carrito e ir a pagar",
   "fullName" : "features/pirma.feature: Comprar playeras en pirma > Agregar jersey al carrito e ir a pagar",
   "historyId" : "c61d4d56b5866d291be829bd704d9875:d41d8cd98f00b204e9800998ecf8427e",
   "time" : {
-    "start" : 1746725551023,
-    "stop" : 1746725556404,
-    "duration" : 5381
+    "start" : 1746726140301,
+    "stop" : 1746726154920,
+    "duration" : 14619
   },
   "status" : "broken",
   "statusMessage" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
-  "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:28:9)\n    at async /home/runner/work/CICD_Curso/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+  "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:28:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "\"before each\" hook: codeceptjs.before",
     "time" : {
-      "start" : 1746725551024,
-      "stop" : 1746725551069,
-      "duration" : 45
+      "start" : 1746726140301,
+      "stop" : 1746726140810,
+      "duration" : 509
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "\"before all\" hook: codeceptjs.beforeSuite",
     "time" : {
-      "start" : 1746725550820,
-      "stop" : 1746725551020,
-      "duration" : 200
+      "start" : 1746726139148,
+      "stop" : 1746726140300,
+      "duration" : 1152
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,21 +47,21 @@
   "testStage" : {
     "status" : "broken",
     "statusMessage" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
-    "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:28:9)\n    at async /home/runner/work/CICD_Curso/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+    "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:28:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
     "steps" : [ {
       "name" : "Given el usuario está en la página principal",
       "time" : {
-        "start" : 1746725551082,
-        "stop" : 1746725552740,
-        "duration" : 1658
+        "start" : 1746726140818,
+        "stop" : 1746726142597,
+        "duration" : 1779
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "I am on page \"https://pirma.com.mx/\"",
         "time" : {
-          "start" : 1746725551084,
-          "stop" : 1746725552739,
-          "duration" : 1655
+          "start" : 1746726140819,
+          "stop" : 1746726142596,
+          "duration" : 1777
         },
         "status" : "passed",
         "steps" : [ ],
@@ -81,19 +81,19 @@
     }, {
       "name" : "When selecciona promocion del banner",
       "time" : {
-        "start" : 1746725552741,
-        "stop" : 1746725556308,
-        "duration" : 3567
+        "start" : 1746726142598,
+        "stop" : 1746726154816,
+        "duration" : 12218
       },
       "status" : "broken",
       "statusMessage" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
-      "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/home/runner/work/CICD_Curso/CICD_Curso/pages/pirmaMainPage.js:28:9)\n    at async /home/runner/work/CICD_Curso/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+      "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/Users/emilioherrera/Documents/CICD_Curso/pages/pirmaMainPage.js:28:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
       "steps" : [ {
         "name" : "I wait 2",
         "time" : {
-          "start" : 1746725552741,
-          "stop" : 1746725554741,
-          "duration" : 2000
+          "start" : 1746726142598,
+          "stop" : 1746726144601,
+          "duration" : 2003
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,11 +104,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "I wait for element \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[1]\", 5",
+        "name" : "I wait for element \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]\", 5",
         "time" : {
-          "start" : 1746725554741,
-          "stop" : 1746725554747,
-          "duration" : 6
+          "start" : 1746726144602,
+          "stop" : 1746726144614,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -119,11 +119,11 @@
         "shouldDisplayMessage" : false,
         "hasContent" : false
       }, {
-        "name" : "I click \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[1]\"",
+        "name" : "I click \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]\"",
         "time" : {
-          "start" : 1746725554748,
-          "stop" : 1746725554931,
-          "duration" : 183
+          "start" : 1746726144615,
+          "stop" : 1746726153523,
+          "duration" : 8908
         },
         "status" : "passed",
         "steps" : [ ],
@@ -136,13 +136,13 @@
       }, {
         "name" : "I click \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\"",
         "time" : {
-          "start" : 1746725554931,
-          "stop" : 1746725556307,
-          "duration" : 1376
+          "start" : 1746726153524,
+          "stop" : 1746726154814,
+          "duration" : 1290
         },
         "status" : "broken",
         "statusMessage" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
-        "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/home/runner/work/CICD_Curso/CICD_Curso/pages/pirmaMainPage.js:28:9)\n    at async /home/runner/work/CICD_Curso/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/home/runner/work/CICD_Curso/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+        "statusTrace" : "Error: Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath\n    at new ElementNotFound (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/errors/ElementNotFound.js:15:11)\n    at assertElementExists (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3695:11)\n    at Playwright.proceedClick (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3449:5)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/Users/emilioherrera/Documents/CICD_Curso/pages/pirmaMainPage.js:28:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
@@ -160,18 +160,18 @@
     }, {
       "name" : "Main session - Last Seen Screenshot",
       "time" : {
-        "start" : 1746725556401,
-        "stop" : 1746725556401,
+        "start" : 1746726154917,
+        "stop" : 1746726154917,
         "duration" : 0
       },
       "status" : "unknown",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "48d1f44a0ab8892",
+        "uid" : "e64d5f33d2ac28e3",
         "name" : "Main session - Last Seen Screenshot",
-        "source" : "48d1f44a0ab8892.png",
+        "source" : "e64d5f33d2ac28e3.png",
         "type" : "image/png",
-        "size" : 208091
+        "size" : 216195
       } ],
       "parameters" : [ ],
       "stepsCount" : 0,
@@ -189,9 +189,9 @@
   "afterStages" : [ {
     "name" : "\"after each\" hook: codeceptjs.after",
     "time" : {
-      "start" : 1746725556404,
-      "stop" : 1746725556412,
-      "duration" : 8
+      "start" : 1746726154920,
+      "stop" : 1746726154964,
+      "duration" : 44
     },
     "status" : "passed",
     "steps" : [ ],
@@ -204,9 +204,9 @@
   }, {
     "name" : "\"after all\" hook: codeceptjs.afterSuite",
     "time" : {
-      "start" : 1746725562510,
-      "stop" : 1746725562510,
-      "duration" : 0
+      "start" : 1746726163804,
+      "stop" : 1746726163805,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -225,10 +225,10 @@
     "value" : "codeceptjs"
   }, {
     "name" : "host",
-    "value" : "fv-az1341-848"
+    "value" : "MacBook-Air-de-Emilio.local"
   }, {
     "name" : "thread",
-    "value" : "pid-6044-worker-main"
+    "value" : "pid-7722-worker-main"
   }, {
     "name" : "package",
     "value" : "features.pirma.feature"
@@ -241,18 +241,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "8197241016fa2dcd.json",
+  "source" : "f6a0ecca4449cefe.json",
   "parameterValues" : [ ]
 }

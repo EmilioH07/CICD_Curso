@@ -1,0 +1,237 @@
+{
+  "uid" : "55b953a29f003c00",
+  "name" : "Agregar jersey al carrito e ir a pagar",
+  "fullName" : "features/pirma.feature: Comprar playeras en pirma > Agregar jersey al carrito e ir a pagar",
+  "historyId" : "c61d4d56b5866d291be829bd704d9875:d41d8cd98f00b204e9800998ecf8427e",
+  "time" : {
+    "start" : 1746726009114,
+    "stop" : 1746726034141,
+    "duration" : 25027
+  },
+  "status" : "broken",
+  "statusMessage" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+  "statusTrace" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3462:19)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:26:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "\"before all\" hook: codeceptjs.beforeSuite",
+    "time" : {
+      "start" : 1746726008841,
+      "stop" : 1746726009113,
+      "duration" : 272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "\"before each\" hook: codeceptjs.before",
+    "time" : {
+      "start" : 1746726009114,
+      "stop" : 1746726009312,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+    "statusTrace" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n    at Playwright.proceedClick (node_modules/codeceptjs/lib/helper/Playwright.js:3462:19)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (pages/pirmaMainPage.js:26:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+    "steps" : [ {
+      "name" : "Given el usuario está en la página principal",
+      "time" : {
+        "start" : 1746726009318,
+        "stop" : 1746726010885,
+        "duration" : 1567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I am on page \"https://pirma.com.mx/\"",
+        "time" : {
+          "start" : 1746726009319,
+          "stop" : 1746726010884,
+          "duration" : 1565
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When selecciona promocion del banner",
+      "time" : {
+        "start" : 1746726010885,
+        "stop" : 1746726033989,
+        "duration" : 23104
+      },
+      "status" : "broken",
+      "statusMessage" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+      "statusTrace" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n    at Playwright.proceedClick (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3462:19)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/Users/emilioherrera/Documents/CICD_Curso/pages/pirmaMainPage.js:26:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+      "steps" : [ {
+        "name" : "I wait 2",
+        "time" : {
+          "start" : 1746726010886,
+          "stop" : 1746726012887,
+          "duration" : 2001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait for element \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]\", 5",
+        "time" : {
+          "start" : 1746726012888,
+          "stop" : 1746726012902,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]\"",
+        "time" : {
+          "start" : 1746726012903,
+          "stop" : 1746726033987,
+          "duration" : 21084
+        },
+        "status" : "broken",
+        "statusMessage" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n",
+        "statusTrace" : "locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator('xpath=(//button[@class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"])[2]').first()\n    - locator resolved to <button ng-click=\"vm.goTo(item.btnUrl)\" ng-if=\"item.btnUrl&&!item.hasButton2\" class=\"bg-transparent border-0 position-absolute pointer h-100 w-100\"></button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    10 × waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n\n    at Playwright.proceedClick (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/helper/Playwright.js:3462:19)\n    at async pirmaMainPage.ordenarPlayeraPorPrecio (/Users/emilioherrera/Documents/CICD_Curso/pages/pirmaMainPage.js:26:9)\n    at async /Users/emilioherrera/Documents/CICD_Curso/steps/steps.js:10:3\n    at async runSteps (/Users/emilioherrera/Documents/CICD_Curso/node_modules/codeceptjs/lib/mocha/gherkin.js:85:9)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Main session - Last Seen Screenshot",
+      "time" : {
+        "start" : 1746726034139,
+        "stop" : 1746726034139,
+        "duration" : 0
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66c58bf712b516fb",
+        "name" : "Main session - Last Seen Screenshot",
+        "source" : "66c58bf712b516fb.png",
+        "type" : "image/png",
+        "size" : 585188
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "\"after each\" hook: codeceptjs.after",
+    "time" : {
+      "start" : 1746726034142,
+      "stop" : 1746726034147,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "\"after all\" hook: codeceptjs.afterSuite",
+    "time" : {
+      "start" : 1746726039672,
+      "stop" : 1746726039672,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "codeceptjs"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-de-Emilio.local"
+  }, {
+    "name" : "thread",
+    "value" : "pid-7652-worker-main"
+  }, {
+    "name" : "package",
+    "value" : "features.pirma.feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Comprar playeras en pirma"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55b953a29f003c00.json",
+  "parameterValues" : [ ]
+}

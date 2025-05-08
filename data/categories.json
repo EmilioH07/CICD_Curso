@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
-      "children" : [ {
-        "name" : "Agregar jersey al carrito e ir a pagar",
-        "uid" : "8197241016fa2dcd",
-        "parentUid" : "53e2958555a22977d98abc2fbe4b51dc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1746725551023,
-          "stop" : 1746725556404,
-          "duration" : 5381
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "53e2958555a22977d98abc2fbe4b51dc"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

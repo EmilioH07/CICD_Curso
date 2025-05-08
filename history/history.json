@@ -9,34 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2335600028ccbf6a",
-      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/19//#testresult/2335600028ccbf6a",
+      "uid" : "5cc849939ac18ae7",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/20//#testresult/5cc849939ac18ae7",
       "status" : "passed",
       "time" : {
-        "start" : 1746725556412,
-        "stop" : 1746725562503,
-        "duration" : 6091
+        "start" : 1746726599352,
+        "stop" : 1746726608803,
+        "duration" : 9451
       }
     } ]
   },
   "c61d4d56b5866d291be829bd704d9875:d41d8cd98f00b204e9800998ecf8427e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8197241016fa2dcd",
-      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/19//#testresult/8197241016fa2dcd",
-      "status" : "broken",
-      "statusDetails" : "Clickable element \"//button[@class=\"btn btn-block rounded-0 font-12 px-4\"]\" was not found by text|CSS|XPath",
+      "uid" : "691884e6e236ae6a",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/20//#testresult/691884e6e236ae6a",
+      "status" : "passed",
       "time" : {
-        "start" : 1746725551023,
-        "stop" : 1746725556404,
-        "duration" : 5381
+        "start" : 1746726591669,
+        "stop" : 1746726599339,
+        "duration" : 7670
       }
     } ]
   }

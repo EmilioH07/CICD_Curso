@@ -1,21 +1,21 @@
 [ {
-  "uid" : "2335600028ccbf6a",
+  "uid" : "5cc849939ac18ae7",
   "name" : "Buscar chamarras para hombre de talla mediana",
   "time" : {
-    "start" : 1746725556412,
-    "stop" : 1746725562503,
-    "duration" : 6091
+    "start" : 1746726599352,
+    "stop" : 1746726608803,
+    "duration" : 9451
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8197241016fa2dcd",
+  "uid" : "691884e6e236ae6a",
   "name" : "Agregar jersey al carrito e ir a pagar",
   "time" : {
-    "start" : 1746725551023,
-    "stop" : 1746725556404,
-    "duration" : 5381
+    "start" : 1746726591669,
+    "stop" : 1746726599339,
+    "duration" : 7670
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]
