@@ -11,8 +11,10 @@
     "mocha": "^11.1.0"
   },
   "scripts": {
-    "test": "codeceptjs run",
-    "features": "codeceptjs run --features"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "features": "codeceptjs run --features --plugins allure",
+    "allure:generate": "allure generate output --clean",
+    "allure:report": "allure open"
   },
   "keywords": [],
   "author": "",

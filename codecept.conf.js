@@ -23,6 +23,15 @@ exports.config = {
     features: './features/**/*.feature',
     steps: ['./steps/steps.js']
   },
+
+  plugins: {
+    allure: {
+      enabled: true,
+      require: "allure-codeceptjs",
+      resultsDir: "allure-results",
+    },
+  },
+  
   include: {
     
   },
