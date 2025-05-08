@@ -31,7 +31,7 @@ exports.config = {
       resultsDir: "allure-results",
     },
   },
-  
+
   include: {
     
   },
