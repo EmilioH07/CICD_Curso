@@ -1,0 +1,42 @@
+{
+  "5ee58ddf069331a8f80cebf1e11a826d:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "16717b1e124a0f1d",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/21//#testresult/16717b1e124a0f1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1747079398689,
+        "stop" : 1747079404452,
+        "duration" : 5763
+      }
+    } ]
+  },
+  "c61d4d56b5866d291be829bd704d9875:d41d8cd98f00b204e9800998ecf8427e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a3ca91d688fd2b4",
+      "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/21//#testresult/3a3ca91d688fd2b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1747079391857,
+        "stop" : 1747079398680,
+        "duration" : 6823
+      }
+    } ]
+  }
+}

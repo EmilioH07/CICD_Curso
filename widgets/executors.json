@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://EmilioH07.github.io/CICD_Curso",
+  "buildOrder" : 21,
+  "buildName" : "GitHub Actions Run #14981215591",
+  "buildUrl" : "https://github.com/EmilioH07/CICD_Curso/actions/runs/14981215591",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://EmilioH07.github.io/CICD_Curso/21/"
+} ]

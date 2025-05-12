@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 12 19:49:58 GMT 2025","Mon May 12 19:50:04 GMT 2025","5763","Comprar playeras en pirma","","","","","Buscar chamarras para hombre de talla mediana",""
+"passed","Mon May 12 19:49:51 GMT 2025","Mon May 12 19:49:58 GMT 2025","6823","Comprar playeras en pirma","","","","","Agregar jersey al carrito e ir a pagar",""
